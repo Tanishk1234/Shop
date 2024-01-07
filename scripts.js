@@ -30,14 +30,3 @@ function showSocial() {
   document.getElementById('content').innerHTML = '<h2>Connect with Us</h2><p>Follow us on social media for updates:</p><ul><li><a href="your-facebook-link">Facebook</a></li><li><a href="your-twitter-link">Twitter</a></li><li><a href="your-instagram-link">Instagram</a></li></ul>';
   document.getElementById('content').classList.add('animate-fade-in');
 }
-function animateClick() {
-    var contactLinkBtn = document.getElementById('contactLinkBtn');
-  
-    // Add the 'click-animation' class to initiate the click animation
-    contactLinkBtn.classList.add('click-animation');
-  
-    // Remove the 'click-animation' class after a short delay
-    setTimeout(function () {
-      contactLinkBtn.classList.remove('click-animation');
-    }, 200);
-  }
